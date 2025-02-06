@@ -1,0 +1,113 @@
+.heading-1 {
+    font-size: 40px;
+}
+
+.services-areas {
+    background: rgb(46, 46, 46);
+    padding: 60px 0;
+    height: 70vh;
+    width: 100%;
+    /* float: left; */
+    display: flex;
+  }
+
+  .single-items:hover {
+    scale: 1.08;
+    transition: all .8s ease;
+  }
+  
+  .wrappers {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-headers h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .itemss {
+    width: 100%;
+    float: left;
+  }
+  
+  .single-items {
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+    margin-top: 3rem;
+  }
+  
+  .item-boxs {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    background: white;
+  }
+  
+  .item-boxs:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    box-sizing: border-box;
+    height: 0;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    transition: all .8s ease;
+  }
+  
+  .item-boxs:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    box-sizing: border-box;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    transition: all .8s ease;
+  }
+  
+  .single-items:hover .item-boxs:after,
+  .single-item:hover .item-box:before {
+    border-color: deepskyblue;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .icon-areas {
+    font-size: 50px;
+    color: rgb(44, 43, 43);
+    transition: color .8s ease;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .single-items:hover .item-boxs .icon-areas {
+    color: deepskyblue;
+  }
+  
+  .item-boxs h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    margin: 20px 0;
+  }
+  
+  .item-boxs p {
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    line-height: 23px;
+  }
+  
+  @media (max-width: 767px) {
+    .single-items {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,61 @@
+/* .half-header {
+    --dot-bg: black;
+    --dot-color: white;
+    --dot-size: 1px;
+    --dot-space: 22px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+    height: 660px;
+  } */
+
+
+  /* .half-header {
+    background: linear-gradient(135deg, #FF6347, #1E90FF);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ease infinite;
+    height: 650px;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+} */
+
+
+
+ /* header {
+    background: linear-gradient(135deg, #003366, #006699);
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+} */
+
+
+
+
+
+
+
+.header {
+    background-size: cover;
+    /* background-image: url("hero-bg.png"); */
+    scroll-behavior: smooth;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    width: 80%;    
+    transition: all 0.5s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px;
+}
+
+
+
+
+
+
