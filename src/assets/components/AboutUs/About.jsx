@@ -1,7 +1,7 @@
 import React from "react";
 import './hand.jpg'
 import './About.css'
-
+import Footer from "../Footer/Footer.jsx";
 import MainHeader from "../Header/Main-header.jsx"
 
 function About() {
@@ -104,6 +104,7 @@ function About() {
       </div>
 
       </div>
+      <Footer/>
     </div>
   );
 }

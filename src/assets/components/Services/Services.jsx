@@ -1,10 +1,13 @@
 import React from 'react'
 import './Services.css'
+import MainHeader from '../Header/Main-header'
+import Footer from '../Footer/Footer'
 
 function Services() {
   return (
     
     <div className="body mt-17">
+    <MainHeader/>
     <div class="services-area">
   <div class="wrapper">
     <div class="section-header">
@@ -99,6 +102,7 @@ function Services() {
     </div>
   </div>
 </div>
+<Footer/>
 </div>
     
   )
