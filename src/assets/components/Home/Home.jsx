@@ -1,13 +1,14 @@
 import React from "react";
-import HDesign from "./CurveDesign.svg";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header.jsx";
 import Footer from "../Footer/Footer.jsx";
-import Contactimg from "./Contact.svg";
-import Aboutimg from "./About.svg";
 
-export default function Home() {
+import HDesign from "../images/CurveDesign.svg";
+import Contactimg from "../images/Contact.svg";
+import Aboutimg from "../images/About.svg";
+
+function Home() {
   return (
     <>
       <Header />
@@ -88,3 +89,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
