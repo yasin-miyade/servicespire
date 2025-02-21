@@ -1,4 +1,3 @@
-// import React from 'react'
 import MainHeader from "../Header/Main-header.jsx"
 // import {FaFacebook, FaInstagram, FaGoogle} from "react-icons/fa6"
 import React, { useState } from "react";

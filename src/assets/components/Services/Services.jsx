@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
 import MainHeader from '../Header/Main-header.jsx'
-import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer.jsx'
 
 function Services() {
   return (
@@ -11,7 +11,7 @@ function Services() {
     <div class="services-area">
   <div class="wrapper">
     <div class="section-header">
-      <h1> Our <span className='text-cyan-400'>Services</span></h1>
+      <h1> Our <span className='text-cyan-400'>Services</span></h1> 
     </div>
     <div class="items">
       <div class="single-item">

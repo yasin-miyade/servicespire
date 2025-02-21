@@ -1,10 +1,9 @@
 import React from "react";
-import Homes from "./Homes.svg";
+import HDesign from "./CurveDesign.svg";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-// import Bubble from "../Bubble.jsx"
+import Header from "../Header/Header.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 import Contactimg from "./Contact.svg";
 import Aboutimg from "./About.svg";
@@ -14,7 +13,7 @@ export default function Home() {
     <>
       <Header />
 
-      <section className="">
+      <section>
         <div className="cont">
           <div className="half-header bg-cyan-500 ">
             <div className="text-white text-center flex flex-col items-center justify-center ">
@@ -33,7 +32,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <img src={Homes} alt="home" className="-mt-38" />
+          <img src={HDesign} alt="home" className="-mt-38" />
         </div>
       </section>
 
@@ -60,9 +59,8 @@ export default function Home() {
             className="w-xl box-border shadow-2xl bg-white rounded-2xl hover:scale-105 transition-all duration-900 ease-in-out"
           />
         </div>
-
-        {/* <Bubble/> */}
       </section>
+
       <section className="bg-gray-100 flex flex-col items-center justify-center py-20">
         <div className="content flex justify-center ">
           <img
@@ -87,7 +85,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section></section>
       <Footer />
     </>
   );
