@@ -1,6 +1,6 @@
 // import React from 'react'
-import MainHeader from "../Header/Header.jsx"
-import {FaFacebook, FaInstagram, FaGoogle} from "react-icons/fa6"
+import MainHeader from "../Header/Main-header.jsx"
+// import {FaFacebook, FaInstagram, FaGoogle} from "react-icons/fa6"
 import React, { useState } from "react";
 
 const ContactForm = () => {
@@ -26,7 +26,7 @@ const ContactForm = () => {
         
     <div className="">
     <MainHeader/>
-    <div className=" py-10 px-6 md:px-20 w-auto h-screen ">
+    <div className=" py-10 px-6 md:px-20 w-auto h-screen bg-gray-100">
       <h2 className="text-3xl font-bold mt-32 w-90 ml-18">GET IN TOUCH WITH US</h2>
       <p className="text-gray-400 mt-2 w-96 ml-18">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
@@ -55,15 +55,14 @@ const ContactForm = () => {
             <p>
               <strong>Email Address</strong> <br />
               info@yourdomain.com
-              <FaFacebook size={30} color="blue"/>
               
             </p>
           </div>
         </div>
 
         {/* Contact Form */}
-        <div className=" shadow-2xl p-6 rounded-lg -m-32 mr-10 ml-18 ">
-          <h1 className="flex justify-center text-3xl p-10">CONTACT</h1>
+        <div className=" p-6 rounded-2xl -m-32 mr-10 ml-18 bg-white " style={{border : "1px solid #d8dae0"}}>
+          <h1 className="text-center text-3xl p-10">CONTACT <span className="text-cyan-600"> US</span></h1>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
@@ -71,7 +70,7 @@ const ContactForm = () => {
               placeholder="Your Name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border"
+              className="w-full p-3 rounded-lg border-neutral-400 border"
               required
             />
             <input
@@ -80,7 +79,7 @@ const ContactForm = () => {
               placeholder="Your Email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full p-3 rounded-lg border"
+              className="w-full p-3 rounded-lg border-neutral-400 border"
               required
             />
             <input
@@ -89,7 +88,7 @@ const ContactForm = () => {
               placeholder="Your Phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full p-3  rounded-lg border"
+              className="w-full p-3  rounded-lg border-neutral-400 border"
               required
             />
             <textarea
@@ -97,13 +96,13 @@ const ContactForm = () => {
               placeholder="Your Message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full p-3  rounded-lg border"
+              className="w-full p-3  rounded-lg border-neutral-400 border"
               rows="4"
               required
             />
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold"
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold border-neutral-400 border"
             >
               Send Message
             </button>

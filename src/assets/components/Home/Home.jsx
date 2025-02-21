@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-fuchsia-100 flex flex-col items-center justify-center py-20">
+      <section className="bg-gray-100 flex flex-col items-center justify-center py-20">
         <div className="conten flex justify-center">
           <div className="flex flex-col items-center justify-center mr-10">
             <h2 className="text-4xl font-semibold text-center">Our Services</h2>
@@ -63,7 +63,7 @@ export default function Home() {
 
         {/* <Bubble/> */}
       </section>
-      <section className="bg-pink-100 flex flex-col items-center justify-center py-20">
+      <section className="bg-gray-100 flex flex-col items-center justify-center py-20">
         <div className="content flex justify-center ">
           <img
             src={Contactimg}
