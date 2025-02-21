@@ -72,18 +72,18 @@
 
 .half-header {
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   width: auto;
   display: flex;
   justify-content: center;
-  align-items: center; /* Center content vertically */
+  align-items: center; 
   background: linear-gradient(
     90deg,
-    #57f486,
+    #6cf4b0,
     #a682ff,
-    #715aff,
+    #2e1bae,
     /* #f54e6d, */
-    #2b71f4,
+    #f42bc8,
     #a682ff,
     #715aff,
     #4bd3f1
@@ -122,4 +122,8 @@
 .main-heading .text-xl {
   text-align: start;
 }
+
+
+
+
 
