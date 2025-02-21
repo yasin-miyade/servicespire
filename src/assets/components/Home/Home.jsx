@@ -4,8 +4,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header.jsx";
 import Footer from "../Footer/Footer.jsx";
-
-import Contactimg from "./contact.svg";
+import Contactimg from "./Contact.svg";
 import Aboutimg from "./About.svg";
 
 export default function Home() {
