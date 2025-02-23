@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
+import {LuHouse } from "react-icons/lu";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,7 +21,7 @@ export default function Header() {
 
   return (
     <>
-      <body>
+      
         <header
           className="header z-50 top-0 text-xl"
           style={{ backgroundColor: isScrolled ? "#fff" : "transparent" , boxShadow: isScrolled ? "0 0 10px rgba(0,0,0,0.2)" : "none"}}
@@ -67,9 +68,9 @@ export default function Header() {
                       className={({ isActive }) =>
                         `block py-2 pr-4 pl-3 duration-200 ${
                           isActive ? "text-cyan-400" : "text-black"
-                        } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-cyan-600 lg:p-0`
+                        } border-b border-gray-100 hover:bg-gray-50 flex gap-1 justify-center items-center lg:hover:bg-transparent lg:border-0 hover:text-cyan-600 lg:p-0`
                       }
-                    >
+                    ><LuHouse size={20} />
                       Home
                     </NavLink>
                   </li>
@@ -114,7 +115,7 @@ export default function Header() {
             </div>
           </nav>
         </header>
-      </body>
+      
     </>
   );
 }

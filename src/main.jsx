@@ -9,6 +9,7 @@ import Contact from './assets/components/ContactUs/Contact.jsx'
 import Services from './assets/components/Services/Services.jsx'
 import Login from './assets/components/Login/Login.jsx'
 import Footer from './assets/components/Footer/Footer.jsx'
+import Dashboard from './assets/components/Dashboard/Dashboard.jsx'
 
 
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="services" element={<Services/>}/>
       <Route path='login' element={<Login/>}/>
       <Route path='footer' element={<Footer/>}/>
+      <Route path='dashboard' element={<Dashboard/>}/>
     </Route>
   )
 )

@@ -110,7 +110,9 @@ const ContactForm = () => {
       </div>
     </div>
     </div>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum pariatur beatae nihil amet modi quae maxime rerum ad qui delectus. Laboriosam cum perspiciatis repudiandae doloribus. Inventore magni quo, assumenda nam eos cupiditate consectetur quasi praesentium consequuntur expedita ullam omnis, vitae voluptatum nostrum blanditiis? Nisi optio itaque voluptate distinctio, iste, suscipit iure ducimus officia, vel ipsa facilis expedita dicta? Repudiandae dignissimos doloremque pariatur facilis quod iure, rem doloribus! Inventore debitis expedita quis molestias corporis optio aspernatur quaerat facilis odio laboriosam commodi eaque dolore vero, quam eligendi fuga saepe nostrum nobis, id ut sequi voluptates dolorem deserunt? Nulla iure illum eum consequuntur?
     </>
+    
   );
 };
 

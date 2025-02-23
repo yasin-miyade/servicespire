@@ -5,9 +5,10 @@ import Footer from '../Footer/Footer.jsx'
 
 function Services() {
   return (
-    
-    <div className="body mt-17">
-    <MainHeader/>
+    <>
+        <MainHeader/>
+
+    <div className="body ">
     <div class="services-area">
   <div class="wrapper">
     <div class="section-header">
@@ -104,7 +105,7 @@ function Services() {
 </div>
 <Footer/>
 </div>
-    
+</>
   )
 }
 

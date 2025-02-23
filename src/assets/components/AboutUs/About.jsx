@@ -5,9 +5,11 @@ import MainHeader from "../Header/Main-header.jsx"
 
 function About() {
   return (
-    <div className="body">
-      <MainHeader/>
-      <div className="heading-1 text-gray-800 justify-center flex h-32 mt-30 ml-10 mr-10 p-10 ">
+    <>
+          <MainHeader/>
+
+    <div className="body bg-gray-100">
+      <div className="heading-1 text-gray-800 justify-center flex h-32 pt-30 ml-10 mr-10 p-10 ">
         <h1>ABOUT <span className="text-cyan-600">US</span></h1>
       </div>
       <div className="section-2 h-auto mr-20 ml-20 p-10 text-xl leading-9 text-neutral-700">
@@ -105,6 +107,7 @@ function About() {
       </div>
       <Footer/>
     </div>
+    </>
   );
 }
 

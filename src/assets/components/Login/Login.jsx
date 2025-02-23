@@ -1,5 +1,7 @@
 import React from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+
+import { useNavigate } from "react-router-dom";
+
 
 function Login() {
   const navigate = useNavigate();
@@ -85,7 +87,9 @@ function Login() {
                 type="submit"
                 className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                Login
+                <a href="/dashboard">
+                  Login
+                </a>
               </button>
             </div>
           </form>
@@ -117,13 +121,15 @@ function Login() {
           <div className="text-center">
             <p className="text-sm text-gray-600">
               Don't have an account?{" "}
-              <a href="#" className="text-blue-600 hover:text-blue-800">
+              <a href='/' className="text-blue-600 hover:text-blue-800">
                 Sign up
               </a>
             </p>
           </div>
         </div>
       </div>
+      <a href='/dashboard'>Click me</a>
+
     </>
   );
 }
