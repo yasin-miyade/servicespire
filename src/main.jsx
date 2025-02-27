@@ -3,13 +3,19 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import Home from './assets/components/Home/Home.jsx'
-import About from './assets/components/AboutUs/About.jsx'
-import Contact from './assets/components/ContactUs/Contact.jsx'
-import Services from './assets/components/Services/Services.jsx'
-import Login from './assets/components/Login/Login.jsx'
-import Footer from './assets/components/Footer/Footer.jsx'
-import Dashboard from './assets/components/Dashboard/Dashboard.jsx'
+import Home from './Pages/Home.jsx'
+import About from './Pages/About.jsx'
+import Contact from './Pages/Contact.jsx'
+import Services from './Pages/Services.jsx'
+import Login from './Login/Login.jsx'
+import Footer from './Component/Footer.jsx'
+import Dashboard from './Dashboard/Dashboard.jsx'
+import HeaderDashb from './Dashboard/HeaderDashb.jsx'
+import PostForm from './Dashboard/PostForm.jsx'
+import History from './Dashboard/History.jsx'
+import Notifaction from './Dashboard/Notifaction.jsx'
+import Profile from './Dashboard/Profile.jsx'
+import Option from './Pages/Option.jsx'
 
 
 
@@ -23,6 +29,12 @@ const router = createBrowserRouter(
       <Route path='login' element={<Login/>}/>
       <Route path='footer' element={<Footer/>}/>
       <Route path='dashboard' element={<Dashboard/>}/>
+      <Route path='header' element={<HeaderDashb/>}/>
+      <Route path='post' element={<PostForm/>}/>
+      <Route path="history" element={<History/>}/>
+      <Route path='notifaction' element={<Notifaction/>}/>
+      <Route path='profile' element={<Profile/>}/>
+      <Route path='option' element={<Option/>}/>
     </Route>
   )
 )

@@ -1,12 +1,10 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Header from "../Header/Header.jsx";
-import Footer from "../Footer/Footer.jsx";
-
-import HDesign from "../images/CurveDesign.svg";
-import Contactimg from "../images/Contact.svg";
-import Aboutimg from "../images/About.svg";
+import Header from "../Component/Header.jsx";
+import Footer from "../Component/Footer.jsx";
+import Contactimg from "../assets/Contact.svg";
+import Aboutimg from "../assets/About.svg";
 
 function Home() {
   return (
@@ -15,14 +13,14 @@ function Home() {
 
       <section>
         <div className="cont">
-          <div className="half-header bg-cyan-500 ">
-            <div className="text-white text-center flex flex-col items-center justify-center ">
+          <div className="half-header bg-cyan-400 ">
+            <div className=" text-center flex flex-col items-center justify-center ">
               <h1 className="text-7xl font-semibold">
                 Service with a Purpose,
                 <br /> Help with a Heart
               </h1>
               <p className="text-3xl mt-4 ">
-                Your needs, our priority—delivered with care
+                Your needs, our priority delivered with care
               </p>
               <Link
                 to="about"
@@ -32,7 +30,6 @@ function Home() {
               </Link>
             </div>
           </div>
-          <img src={HDesign} alt="home" className="-mt-38" />
         </div>
       </section>
 
@@ -85,8 +82,8 @@ function Home() {
         </div>
       </section>
 
-      <section>
-      </section>
+          
+      
 
       <Footer />
     </>

@@ -29,7 +29,7 @@ function Login() {
           </svg>
           Back
         </button>
-        <div className="bg-white shadow-lg rounded-lg w-96 p-8 space-y-6">
+        <div className="bg-white shadow-xl rounded-lg w-96 p-8 space-y-6">
           {/* Logo and Heading */}
           <div className="text-center">
             <h1 className="text-3xl font-semibold text-gray-800">
@@ -128,7 +128,6 @@ function Login() {
           </div>
         </div>
       </div>
-      <a href='/dashboard'>Click me</a>
 
     </>
   );

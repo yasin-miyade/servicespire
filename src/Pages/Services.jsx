@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
-import MainHeader from '../Header/Main-header.jsx'
-import Footer from '../Footer/Footer.jsx'
+import MainHeader from '../Component/Main-header.jsx'
+import Footer from '../Component/Footer.jsx'
 
 function Services() {
   return (

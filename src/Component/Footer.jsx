@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactLogo from '../images/react.svg'
+import ReactLogo from '../assets/react.svg'
 import {ImFacebook2} from 'react-icons/im'
 function Footer() {
   return (

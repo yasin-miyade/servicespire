@@ -77,25 +77,24 @@
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     #6cf4b0,
     #a682ff,
     #2e1bae,
-    /* #f54e6d, */
     #f42bc8,
     #a682ff,
     #715aff,
     #4bd3f1
   );
-  background-size: 400% 400%;
-  animation: backgroundMove 20s ease-in-out infinite;
+  background-size: 400% 400%; */
+  /* animation: backgroundMove 20s ease-in-out infinite; */
   padding: 100px 0px;
   transition: all 1s ease;
   overflow: hidden;
 }
 
-@keyframes backgroundMove {
+/* @keyframes backgroundMove {
   0% {
     background-position: 0% 50%;
   }
@@ -105,7 +104,7 @@
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 .content {
   height: 50rem;
@@ -122,8 +121,6 @@
 .main-heading .text-xl {
   text-align: start;
 }
-
-
 
 
 
