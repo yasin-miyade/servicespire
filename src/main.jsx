@@ -19,7 +19,7 @@ import Option from './Pages/Option.jsx'
 
 import HLogin from './Helper/HLogin.jsx'
 import HSignup from './Helper/HSignup.jsx'
-import Signup from './Login/signup.jsx'
+import Signup from './Login/Signup.jsx'
 
 
 const router = createBrowserRouter(
