@@ -17,6 +17,9 @@ import Notifaction from './Dashboard/Notifaction.jsx'
 import Profile from './Dashboard/Profile.jsx'
 import Option from './Pages/Option.jsx'
 
+import HLogin from './Helper/HLogin.jsx'
+import HSignup from './Helper/HSignup.jsx'
+import Signup from './Login/signup.jsx'
 
 
 const router = createBrowserRouter(
@@ -35,6 +38,12 @@ const router = createBrowserRouter(
       <Route path='notifaction' element={<Notifaction/>}/>
       <Route path='profile' element={<Profile/>}/>
       <Route path='option' element={<Option/>}/>
+      <Route path='signup' element={<Signup/>}/>
+
+
+      <Route path='hlogin' element={<HLogin/>}/>
+      <Route path='hsignup' element={<HSignup/>}/>
+
     </Route>
   )
 )

@@ -42,8 +42,8 @@ const UserProfile = () => {
   };
 
   const [isEditing, setIsEditing] = useState(false);
-  const [name, setName] = useState("John Doe");
-  const [email, setEmail] = useState("johndoe@example.com");
+  const [name, setName] = useState("Yasin");
+  const [email, setEmail] = useState("Yasin@gmail.com");
   const [avatar, setAvatar] = useState("https://via.placeholder.com/150");
 
   const handleImageUpload = (e) => {
@@ -69,7 +69,9 @@ const UserProfile = () => {
         className={`transition-all duration-300 p-5 mt-1 w-full ${
           isCollapsed ? "ml-20" : "ml-64"
         }`}>
-    <Card className="w-full max-w-md mx-auto p-6 shadow-xl rounded-2xl text-black">
+          <h1 className="text-3xl font-semibold mt-5 pb-10">Profile</h1>
+          <hr />
+    <Card className="w-full max-w-md mx-auto p-6 mt-10 shadow-xl rounded-2xl text-black">
       <CardContent className="flex flex-col items-center gap-4">
         <div className="flex flex-col items-center gap-2 ">
           <label htmlFor="avatar-upload" className="cursor-pointer">
@@ -131,7 +133,7 @@ const UserProfile = () => {
             </div>
             <div className="flex justify-between">
               <span className="font-medium">Joined:</span>
-              <span>Jan 10, 2023</span>
+              <span>Jan 10, 2025</span>
             </div>
             <div className="flex justify-between">
               <span className="font-medium">Status:</span>

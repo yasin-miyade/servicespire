@@ -18,7 +18,9 @@ function Notifaction() {
         className={`transition-all duration-300 p-5 mt-1 w-full ${
           isCollapsed ? "ml-20" : "ml-64"
         }`}>
-            hiiiii
+          <h1 className='text-3xl font-semibold mt-5 pb-10'>Notifaction</h1>
+          <hr />
+
         </div>
         </div>
     </>

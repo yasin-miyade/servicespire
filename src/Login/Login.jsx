@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 
@@ -40,7 +40,7 @@ function Login() {
             </p>
           </div>
           {/* Login Form */}
-          <form action="#" method="POST" className="space-y-6">
+          <form action="" method="POST" className="space-y-6">
             {/* Email Input */}
             <div>
               <label
@@ -83,14 +83,14 @@ function Login() {
             </div>
             {/* Submit Button */}
             <div>
+              <Link to={'/dashboard'}>
               <button
                 type="submit"
                 className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                <a href="/dashboard">
-                  Login
-                </a>
+                Login
               </button>
+              </Link>
             </div>
           </form>
           {/* Social Login Options */}
@@ -121,7 +121,7 @@ function Login() {
           <div className="text-center">
             <p className="text-sm text-gray-600">
               Don't have an account?{" "}
-              <a href='/' className="text-blue-600 hover:text-blue-800">
+              <a href='/signup' className="text-blue-600 hover:text-blue-800">
                 Sign up
               </a>
             </p>

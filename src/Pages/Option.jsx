@@ -40,7 +40,7 @@ function Option() {
             Continue as User
           </button>
           </a>
-          <a href="" className='mt-5 flex justify-center'>
+          <a href="/hlogin" className='mt-5 flex justify-center'>
           <button className="w-full py-4 text-lg font-bold text-white bg-green-600 rounded-xl hover:bg-green-700 transition transform hover:scale-105 shadow-lg focus:outline-none focus:ring-4 focus:ring-green-300">
             Continue as Helper
           </button>
