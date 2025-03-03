@@ -2,9 +2,9 @@ import React from "react";
 import "./About.css";
 import Footer from "../Component/Footer.jsx";
 import MainHeader from "../Component/Main-header.jsx";
-import Yasin from "../assets/Yasin.jpg";
-import Omkar from "../assets/Omkar.jpg";
-import Suraj from "../assets/Suraj.jpg";
+import Yasin from "../assets/yasin.jpg";
+import Omkar from "../assets/omkar.jpg";
+import Suraj from "../assets/suraj.jpg";
 import Arya from "../assets/Arya.jpg";
 
 function About() {
