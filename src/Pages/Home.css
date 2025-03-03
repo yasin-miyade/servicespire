@@ -70,13 +70,12 @@
 
 
 
-.half-header {
-  background-size: cover;
+/* .half-header {
   height: 100vh;
   width: auto;
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;  */
   /* background: linear-gradient(
     90deg,
     #6cf4b0,
@@ -89,10 +88,10 @@
   );
   background-size: 400% 400%; */
   /* animation: backgroundMove 20s ease-in-out infinite; */
-  padding: 100px 0px;
-  transition: all 1s ease;
-  overflow: hidden;
-}
+  /* padding: 100px 0px; */
+  /* transition: all 1s ease; */
+  /* overflow: hidden; */
+
 
 /* @keyframes backgroundMove {
   0% {
@@ -106,7 +105,7 @@
   }
 } */
 
-.content {
+/* .content {
   height: 50rem;
 }
 
@@ -120,7 +119,7 @@
 
 .main-heading .text-xl {
   text-align: start;
-}
+} */
 
 
 

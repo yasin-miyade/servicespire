@@ -20,6 +20,7 @@ import Option from './Pages/Option.jsx'
 import HLogin from './Helper/HLogin.jsx'
 import HSignup from './Helper/HSignup.jsx'
 import Signup from './Login/Signup.jsx'
+import HDashboard from './Helper/HDashboard.jsx'
 
 
 const router = createBrowserRouter(
@@ -43,6 +44,7 @@ const router = createBrowserRouter(
 
       <Route path='hlogin' element={<HLogin/>}/>
       <Route path='hsignup' element={<HSignup/>}/>
+      <Route path='hdashboard' element={<HDashboard/>}/>
 
     </Route>
   )

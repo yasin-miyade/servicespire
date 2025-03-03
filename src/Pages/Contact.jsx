@@ -61,7 +61,7 @@ const ContactForm = () => {
 
         {/* Contact Form */}
         <div className=" p-6 rounded-2xl -m-32 mr-10 ml-18 bg-white " style={{border : "1px solid #d8dae0"}}>
-          <h1 className="text-center text-3xl p-10">CONTACT <span className="text-cyan-600"> US</span></h1>
+          <h1 className="text-center text-3xl p-10">CONTACT <span className="text-purple-600"> US</span></h1>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
@@ -101,7 +101,7 @@ const ContactForm = () => {
             />
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold border-neutral-400 border"
+              className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-bold border-neutral-400 border"
             >
               Send Message
             </button>
@@ -110,7 +110,6 @@ const ContactForm = () => {
       </div>
     </div>
     </div>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum pariatur beatae nihil amet modi quae maxime rerum ad qui delectus. Laboriosam cum perspiciatis repudiandae doloribus. Inventore magni quo, assumenda nam eos cupiditate consectetur quasi praesentium consequuntur expedita ullam omnis, vitae voluptatum nostrum blanditiis? Nisi optio itaque voluptate distinctio, iste, suscipit iure ducimus officia, vel ipsa facilis expedita dicta? Repudiandae dignissimos doloremque pariatur facilis quod iure, rem doloribus! Inventore debitis expedita quis molestias corporis optio aspernatur quaerat facilis odio laboriosam commodi eaque dolore vero, quam eligendi fuga saepe nostrum nobis, id ut sequi voluptates dolorem deserunt? Nulla iure illum eum consequuntur?
     </>
     
   );
