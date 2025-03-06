@@ -107,6 +107,16 @@ import { Label } from "@radix-ui/react-label";
 
 // import "tailwindcss/tailwind.css";
 
+
+const handleLogout = () => {
+  // Clear stored authentication data (if any)
+  localStorage.removeItem("token"); // Example: Remove JWT token
+  sessionStorage.removeItem("token");
+
+  // Redirect to home page
+  window.location.href = "/";
+};
+
 const menuItems = [
   { name: "Dashboard", icon: <FaHome /> },
   { name: "Pending Requests", icon: <FaClipboardList /> },
@@ -116,7 +126,7 @@ const menuItems = [
   { name: "Helper Profile", icon: <FaUser /> },
   { name: "User Feedback", icon: <FaStar /> },
   { name: "Support Helpdesk", icon: <FaHeadset /> },
-  // { name: "Back to Home", icon: <LogOut /> }
+  { name: "Back to Home", icon: <LogOut />, action: handleLogout }
 ];
 
 const pages = {
@@ -180,7 +190,7 @@ const App = () => {
         </h1>
         <hr className="pb-5 mt-5" />
         <ul className="space-y-4">
-          {menuItems.map(({ name, icon }) => (
+          {menuItems.map(({ name, icon, action }) => (
             <li
               key={name}
               className={`flex items-center p-3 text-lg font-medium rounded-lg cursor-pointer transition-colors duration-200 ${
@@ -188,7 +198,7 @@ const App = () => {
                   ? "bg-blue-500 text-white"
                   : "text-gray-700 hover:bg-blue-100"
               }`}
-              onClick={() => setSelectedPage(name)}
+              onClick={() => (action ? action() : setSelectedPage(name))}
             >
               <span className="text-xl ">{icon}</span>
               <span
@@ -200,7 +210,7 @@ const App = () => {
               </span>
             </li>
           ))}
-          <div className="flex items-center gap-2 p-2">
+          {/* <div className="flex items-center gap-2 p-2">
             <a
               href="/"
               className="no-underline text-gray-700 hover:bg-blue-100 text-lg font-medium flex items-center gap-2"
@@ -210,7 +220,7 @@ const App = () => {
                   sidebarOpen ? "opacity-100" : "opacity-0 hidden"
                 }`}>Back To Home</span>
             </a>
-          </div>
+          </div> */}
         </ul>
       </nav>
 

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import HeaderDashb from "./HeaderDashb";
-// import Dashboard from "./Dashboard";
+
 
 const PostForm = () => {
   
@@ -26,17 +25,9 @@ const PostForm = () => {
     alert("Your post has been submitted successfully!");
   };
 
-  const [isCollapsed, setIsCollapsed] = useState(true);
-  
-    const toggleSidebar = () => {
-      setIsCollapsed(!isCollapsed);
-    };
-
 
   return (
     <>
-          <HeaderDashb isCollapsed={isCollapsed} toggleSidebar={toggleSidebar} />
-
       <div className="flex justify-center items-center min-h-screen bg-gray-100 p-6">
 
         <motion.div 

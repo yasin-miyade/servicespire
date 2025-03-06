@@ -5,7 +5,7 @@ import MainHeader from "../Component/Main-header.jsx";
 import Yasin from "../assets/yasin.jpg";
 import Omkar from "../assets/omkar.jpg";
 import Suraj from "../assets/suraj.jpg";
-import Arya from "../assets/Arya.jpg";
+// import Arya from "../assets/Arya.jpg";
 
 function About() {
   return (
@@ -281,7 +281,7 @@ function About() {
                 <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                    src={Arya}
+                    src=''
                     alt=""
                   />
 

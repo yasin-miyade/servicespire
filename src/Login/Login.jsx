@@ -4,6 +4,12 @@ import { useNavigate } from "react-router-dom";
 
 
 function Login() {
+
+  const handleLogin = () => {
+    window.location.href = "http://localhost:5000/auth/google"; // Redirect to backend
+  };
+
+
   const navigate = useNavigate();
   return (
     <>
@@ -83,7 +89,7 @@ function Login() {
             </div>
             {/* Submit Button */}
             <div>
-              <Link to={'/dashboard'}>
+              <Link to={'/header'}>
               <button
                 type="submit"
                 className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -98,7 +104,7 @@ function Login() {
             <p className="text-sm text-gray-600">Or sign in with</p>
             <div className="flex justify-center space-x-4">
               {/* Google Button */}
-              <button className="flex items-center justify-center px-4 py-2 w-full border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <button onClick={handleLogin} className="flex items-center justify-center px-4 py-2 w-full border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <img
                   src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
                   alt="Google"

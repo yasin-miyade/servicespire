@@ -131,7 +131,7 @@ function Home() {
       </section> */}
 
 
-<div className="container mx-auto py-10 px-4 text-center ">
+<div className="container mx-auto py-10 px-4 text-center mt-30">
       <h2 className="text-4xl font-bold mb-20 text-gray-800">Our <span className="text-purple-800">Services</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((service, index) => (
